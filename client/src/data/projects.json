@@ -3,18 +3,21 @@
     "_id": "1",
     "name": "Gearwaves",
     "description": "Shopping platform with content administration and payments processing",
-    "stack": ["React | Redux", "Node JS | Express", "MongoDB | Mongoose", "PUG Rendering", "Stripe"]
+    "stack": ["React | Redux", "Node JS | Express", "MongoDB | Mongoose", "PUG Rendering", "Stripe"],
+    "img": "gearwaves-cover.jpg"
   },
   {
     "_id": "2",
     "name": "Beatmon",
     "description": "Social Networking Service for music producers",
-    "stack": ["React | Redux", "Node JS | Express", "Firebase", "Material UI", "MP3/Wav Audio Processing"]
+    "stack": ["React | Redux", "Node JS | Express", "Firebase", "Material UI", "MP3/Wav Audio Processing"],
+    "img": "beatmon-cover.jpg"
   },
   {
     "_id": "3",
     "name": "Ixtlan Clothing",
     "description": "E-Commerce platform with shopping cart and payments processing",
-    "stack": ["React", "Redux | Saga", "Node JS | Express", "Stripe", "Firebase | OAuth"]
+    "stack": ["React", "Redux | Saga", "Node JS | Express", "Stripe", "Firebase | OAuth"],
+    "img": "ixtlan-cover.jpg"
   }
 ]
