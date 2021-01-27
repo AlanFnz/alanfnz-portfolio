@@ -2,22 +2,37 @@
   {
     "_id": "1",
     "name": "Gearwaves",
-    "description": "Shopping platform with content administration and payments processing",
+    "summary": "Shopping platform with content administration and payments processing",
+    "description": "This is a looooong description",
     "stack": ["React | Redux", "Node JS | Express", "MongoDB | Mongoose", "PUG Rendering", "Stripe"],
-    "img": "gearwaves-cover.jpg"
+    "img": "gearwaves-cover.jpg",
+    "video": {
+      "webm": "gearwavesWebm",
+      "mp4": "gearwavesMp4"
+    }
   },
   {
     "_id": "2",
     "name": "Beatmon",
-    "description": "Social Networking Service for music producers",
+    "summary": "Social Networking Service for music producers",
+    "description": "Social network designed for artists of the music industry. A place where a producer can share short snippets of his stuff, give and receive feedback from other producers. Built with React, Node.js and Firebase, with the capability of encoding/decoding, crop and upload wav and mp3 files right in the browser. Likes, comments, notifications and all the essential stuff of any social media service",
     "stack": ["React | Redux", "Node JS | Express", "Firebase", "Material UI", "MP3/Wav Audio Processing"],
-    "img": "beatmon-cover.jpg"
+    "img": "beatmon-cover.jpg",
+    "video": {
+      "webm": "beatmonWebm",
+      "mp4": "beatmonMp4"
+    }
   },
   {
     "_id": "3",
     "name": "Ixtlan Clothing",
-    "description": "E-Commerce platform with shopping cart and payments processing",
+    "summary": "E-Commerce platform with shopping cart and payments processing",
+    "description": "Another long descriptions",
     "stack": ["React", "Redux | Saga", "Node JS | Express", "Stripe", "Firebase | OAuth"],
-    "img": "ixtlan-cover.jpg"
+    "img": "ixtlan-cover.jpg",
+    "video": {
+      "webm": "ixtlanWebm",
+      "mp4": "ixtlanMp4"
+    }
   }
 ]

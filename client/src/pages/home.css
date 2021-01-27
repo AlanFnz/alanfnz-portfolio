@@ -320,7 +320,7 @@ body {
       background-image: linear-gradient(to right bottom, rgba(120, 192, 224, 0.85), rgba(8, 76, 97, 0.85)); }
     .card__heading-span--3 {
       background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85)); }
-  .card__description {
+  .card__summary {
     padding: 1rem;
     text-align: center;
     font-size: 1.2rem;
@@ -442,7 +442,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 75%;
+    width: 60%;
     box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
     background-color: #fff;
     border-radius: 3px;
@@ -451,22 +451,23 @@ body {
     opacity: 0;
     transform: translate(-50%, -50%) scale(0.25);
     transition: all 0.5s 0.2s; }
+    @media only screen and (max-width: 75em) {
+      .popup__content {
+        width: 70%; } }
+    @media only screen and (max-width: 56.25em) {
+      .popup__content {
+        width: 80%; } }
+    @media only screen and (max-width: 37.5em) {
+      .popup__content {
+        width: 90%; } }
   .popup__left {
-    width: 33.333333%;
-    display: table-cell; }
-    @media only screen and (max-width: 75em) {
-      .popup__left {
-        display: inline-block;
-        width: 100%; } }
+    display: inline-block;
+    width: 100%; }
   .popup__right {
-    width: 66.666667%;
-    display: table-cell;
     vertical-align: middle;
-    padding: 3rem 5rem; }
-    @media only screen and (max-width: 75em) {
-      .popup__right {
-        display: inline-block;
-        width: 100%; } }
+    padding: 3rem 5rem;
+    display: inline-block;
+    width: 100%; }
   .popup__img {
     display: block;
     width: 100%;
@@ -478,6 +479,10 @@ body {
       .popup__img {
         width: 50%;
         float: left; } }
+  .popup__video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; }
   .popup #popup-img1 {
     background-image: url("../img/2000x1350.jpg"); }
   .popup #popup-img2 {
