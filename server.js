@@ -44,7 +44,7 @@ app.post('/message', (req, res, next) => {
   var msg = {
     to: 'alan.ixtlan@gmail.com',  
     from: 'alan.f@msn.com',
-    subject: 'Contact from Ixtlan Clothing',
+    subject: 'Contact from Portfolio',
     text: message
   }
 
