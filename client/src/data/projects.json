@@ -9,7 +9,10 @@
     "video": {
       "webm": "gearwavesWebm",
       "mp4": "gearwavesMp4"
-    }
+    },
+    "live": "https://gearwaves-cli.herokuapp.com/",
+    "sourceClient": "https://github.com/AlanFnz/gearwaves-cli",
+    "sourceAPI": "https://github.com/AlanFnz/gearwaves-api"
   },
   {
     "_id": "2",
@@ -21,7 +24,10 @@
     "video": {
       "webm": "beatmonWebm",
       "mp4": "beatmonMp4"
-    }
+    },
+    "live": "https://beatmon-d6f0e.web.app",
+    "sourceClient": "https://github.com/AlanFnz/beatmon-cli",
+    "sourceAPI": "https://github.com/AlanFnz/beatmon-api"
   },
   {
     "_id": "3",
@@ -33,6 +39,8 @@
     "video": {
       "webm": "ixtlanWebm",
       "mp4": "ixtlanMp4"
-    }
+    },
+    "live": "https://ixtlan-clothing.herokuapp.com/",
+    "source": "https://github.com/AlanFnz/ixtlan-clothing"
   }
 ]
