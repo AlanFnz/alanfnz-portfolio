@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from 'axios';
+import { showAlert } from '../util/alerts';
 
 const Contact = () => {
   const initialState = {
@@ -33,22 +34,25 @@ const Contact = () => {
       .then(res => {
         if (res.data.status === 'success') {
           setState((prevState) => ({ ...prevState, buttonText: "Success! :)"}))
+          showAlert('success', 'Thank you! I will be in contact ASAP :)');
           window.setTimeout(() => {
             setState(initialState);
-          }, 2500);
+          }, 3000);
         } else {
           setState((prevState) => ({ ...prevState, buttonText: "Error! :("}))
+          showAlert('error', 'Something went wrong :(');
           window.setTimeout(() => {
             setState(initialState);
-          }, 2500);
+          }, 3000);
         }
       })
       .catch(error => {
         console.log(error);
         setState((prevState) => ({ ...prevState, buttonText: "Error! :("}))
+        showAlert('error', 'Something went wrong :(');
         window.setTimeout(() => {
           setState(initialState);
-        }, 2500);
+        }, 3000);
       });
     };
 
