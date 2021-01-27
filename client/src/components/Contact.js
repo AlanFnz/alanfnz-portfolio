@@ -63,6 +63,7 @@ const Contact = () => {
           <div className="form__group">
             <input
               type="text"
+              name="name"
               className="form__input"
               placeholder="Full Name"
               id="name"
@@ -78,6 +79,7 @@ const Contact = () => {
           <div className="form__group">
             <input
               type="email"
+              name="email"
               className="form__input"
               placeholder="Email"
               id="email"
@@ -94,6 +96,7 @@ const Contact = () => {
             <textarea
               style={{ resize: "none"}}
               type="textarea"
+              name="message"
               className="form__input form__input--textarea"
               placeholder="Message"
               id="message"
