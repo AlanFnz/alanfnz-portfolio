@@ -37,8 +37,9 @@ app.get('/service-worker.js', (req, res) => {
 });
 
 app.post('/message', (req, res, next) => {
+  const name = req.body.name;
   const from = req.body.email;
-  const message = `Message from the portfolio by ${from}: ${req.body.message}`;
+  const message = `Message from the portfolio by ${name} < ${from} >: ${req.body.message}`;
 
   var msg = {
     to: 'alan.ixtlan@gmail.com',  

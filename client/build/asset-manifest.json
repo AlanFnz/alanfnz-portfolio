@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.704e8bb2.chunk.css",
+    "main.js": "/static/js/main.788f0d6c.chunk.js",
+    "main.js.map": "/static/js/main.788f0d6c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3835c0b4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3835c0b4.js.map",
+    "static/js/2.be2bdbf9.chunk.js": "/static/js/2.be2bdbf9.chunk.js",
+    "static/js/2.be2bdbf9.chunk.js.map": "/static/js/2.be2bdbf9.chunk.js.map",
+    "static/js/3.490cae8d.chunk.js": "/static/js/3.490cae8d.chunk.js",
+    "static/js/3.490cae8d.chunk.js.map": "/static/js/3.490cae8d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.704e8bb2.chunk.css.map": "/static/css/main.704e8bb2.chunk.css.map",
+    "static/js/2.be2bdbf9.chunk.js.LICENSE.txt": "/static/js/2.be2bdbf9.chunk.js.LICENSE.txt",
+    "static/media/home.css": "/static/media/ixtlan-cover.7c7f637a.jpg",
+    "static/media/beatmon-video.dcaec570.mp4": "/static/media/beatmon-video.dcaec570.mp4",
+    "static/media/gearwaves-video.3b12e8ad.mp4": "/static/media/gearwaves-video.3b12e8ad.mp4",
+    "static/media/ixtlan-clothing-video.1cd3b863.mp4": "/static/media/ixtlan-clothing-video.1cd3b863.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3835c0b4.js",
+    "static/js/2.be2bdbf9.chunk.js",
+    "static/css/main.704e8bb2.chunk.css",
+    "static/js/main.788f0d6c.chunk.js"
+  ]
+}
