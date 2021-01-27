@@ -26,10 +26,11 @@ const Popup = (props) => {
   return (
     <div className={`popup ${isOpen ? 'popup--open' : ''}`} id="popup">
       <div className="popup__content">
-        <div className="popup__left">
+        <div className="popup__top">
           <EmbedVideo src={videoSrc} className="popup__video" />
         </div>
-        <div className="popup__right">
+        <div className="popup__bottom">
+          <div className="popup__close-background">&nbsp;</div>
           <div className="popup__close" onClick={toggle}>&times;</div>
           <h2 className="heading-secondary u-margin-bottom-small">{project.name}</h2>
           <h3 className="heading-tertiary u-margin-bottom-small">{project.summary}</h3>

@@ -451,23 +451,29 @@ body {
     opacity: 0;
     transform: translate(-50%, -50%) scale(0.25);
     transition: all 0.5s 0.2s; }
+    @media only screen and (min-width: 112.5em) {
+      .popup__content {
+        width: 50%; } }
     @media only screen and (max-width: 75em) {
       .popup__content {
-        width: 70%; } }
+        width: 75%; } }
     @media only screen and (max-width: 56.25em) {
       .popup__content {
-        width: 80%; } }
+        width: 85%; } }
     @media only screen and (max-width: 37.5em) {
       .popup__content {
         width: 90%; } }
-  .popup__left {
+  .popup__top {
     display: inline-block;
     width: 100%; }
-  .popup__right {
+  .popup__bottom {
     vertical-align: middle;
     padding: 3rem 5rem;
     display: inline-block;
     width: 100%; }
+    @media only screen and (max-width: 28em) {
+      .popup__bottom {
+        padding: 2rem 3rem; } }
   .popup__img {
     display: block;
     width: 100%;
@@ -490,12 +496,6 @@ body {
   .popup__text {
     font-size: 1.4rem;
     margin-bottom: 4rem;
-    -moz-column-count: 2;
-    -moz-column-gap: 4rem;
-    -moz-column-rule: 1px solid #999;
-    column-count: 2;
-    column-gap: 4rem;
-    column-rule: 1px solid #999;
     -moz-hyphens: auto;
     -ms-hyphens: auto;
     -webkit-hyphens: auto;
@@ -506,6 +506,16 @@ body {
   .popup--open .popup__content {
     opacity: 1;
     transform: translate(-50%, -50%) scale(1); }
+  .popup__close-background {
+    display: inline-block;
+    position: absolute;
+    background-color: #fff;
+    height: 2.8rem;
+    width: 2.8rem;
+    top: 1.9rem;
+    border-radius: 50%;
+    right: 1.97rem;
+    z-index: 2501; }
   .popup__close {
     color: #777;
     position: absolute;
@@ -516,7 +526,8 @@ body {
     text-decoration: none;
     display: inline-block;
     transition: all 0.2s;
-    cursor: pointer; }
+    cursor: pointer;
+    z-index: 2502; }
     .popup__close:hover {
       color: #449dd1; }
 
@@ -725,7 +736,7 @@ body {
 
 .footer {
   background-color: #333;
-  padding: 10rem 0;
+  padding: 10rem 5rem;
   font-size: 1.4rem;
   color: #f7f7f7; }
   @media only screen and (max-width: 56.25em) {

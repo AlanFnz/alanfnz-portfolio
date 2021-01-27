@@ -3,8 +3,8 @@
     "_id": "1",
     "name": "Gearwaves",
     "summary": "Shopping platform with content administration and payments processing",
-    "description": "This is a looooong description",
-    "stack": ["React | Redux", "Node JS | Express", "MongoDB | Mongoose", "PUG Rendering", "Stripe"],
+    "description": "Modern shopping platform built with MERN stack (Mongo, Express, React and Node.js). Mapbox integration, user roles, CRUD operations capabilities as an admin user, and many more features from the API. Fully responsive.",
+    "stack": ["React | Redux", "Node JS | Express", "MongoDB | Mongoose", "JWT", "Stripe"],
     "img": "gearwaves-cover.jpg",
     "video": {
       "webm": "gearwavesWebm",
@@ -15,7 +15,7 @@
     "_id": "2",
     "name": "Beatmon",
     "summary": "Social Networking Service for music producers",
-    "description": "Social network designed for artists of the music industry. A place where a producer can share short snippets of his stuff, give and receive feedback from other producers. Built with React, Node.js and Firebase, with the capability of encoding/decoding, crop and upload wav and mp3 files right in the browser. Likes, comments, notifications and all the essential stuff of any social media service",
+    "description": "A social network where a producer can share short snippets of his stuff, give and receive feedback from other producers. Built with React, Node.js and Firebase, with the capability of encoding/decoding, crop and upload wav and mp3 files right in the browser. Likes, comments, notifications, infinite scroll and all the essential stuff of any social media service. Fully responsive using Material UI.",
     "stack": ["React | Redux", "Node JS | Express", "Firebase", "Material UI", "MP3/Wav Audio Processing"],
     "img": "beatmon-cover.jpg",
     "video": {
@@ -27,7 +27,7 @@
     "_id": "3",
     "name": "Ixtlan Clothing",
     "summary": "E-Commerce platform with shopping cart and payments processing",
-    "description": "Another long descriptions",
+    "description": "Versatile shopping platform built with React, Node.js and Firebase. Implementing technologies such as Redux-Saga, Stripe and OAuth. With session-persistent shopping cart and a fully responsive layout using styled components.",
     "stack": ["React", "Redux | Saga", "Node JS | Express", "Stripe", "Firebase | OAuth"],
     "img": "ixtlan-cover.jpg",
     "video": {
