@@ -4,7 +4,7 @@ import axios from 'axios';
 const Contact = () => {
   const initialState = {
     name: "",
-    mail: "",
+    email: "",
     message: "",
     buttonText: "Send",
   };
@@ -68,7 +68,7 @@ const Contact = () => {
               placeholder="Full Name"
               id="name"
               value={state.name}
-              handleChange={handleChange}
+              onChange={handleChange}
               required
             />
             <label for="name" className="form__label">
@@ -84,7 +84,7 @@ const Contact = () => {
               placeholder="Email"
               id="email"
               value={state.email}
-              handleChange={handleChange}
+              onChange={handleChange}
               required
             />
             <label for="email" className="form__label">
@@ -101,7 +101,7 @@ const Contact = () => {
               placeholder="Message"
               id="message"
               value={state.message}
-              handleChange={handleChange}
+              onChange={handleChange}
               resize="none"
               required
             />
