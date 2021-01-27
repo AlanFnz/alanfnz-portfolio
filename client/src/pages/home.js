@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 // Style
 import "./home.css";
+import logo from '../img/logo-white.png';
 // Data
 import projects from '../data/projects.json';
 // Components
@@ -15,16 +16,12 @@ const Home = () => {
     <ProjectCard project={project} />
   ))
 
-  // let projectsMarkup = projects.map((project) => (
-  //   <ProjectCard project={project} />
-  // ))
-
   return (
     <Fragment>
       <Navigation />
       <header className="header" id="section-header">
         <div className="header__logo-box">
-          <img src="img/logo-white.png" alt="Logo" className="header__logo" />
+          <img src={logo} alt="Logo" className="header__logo" />
         </div>
         <div className="header__text-box">
           <h1 className="heading-primary">
