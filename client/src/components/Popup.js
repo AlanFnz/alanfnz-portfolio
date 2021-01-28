@@ -70,10 +70,10 @@ const Popup = (props) => {
           <div className="popup__close" onClick={toggle}>
             &times;
           </div>
-          <h2 className="heading-secondary u-margin-bottom-small">
+          <h2 className="heading-secondary ">
             {project.name}
           </h2>
-          <h3 className="heading-tertiary u-margin-bottom-small">
+          <h3 className="heading-tertiary ">
             {project.summary}
           </h3>
           <p className="popup__text">{project.description}</p>

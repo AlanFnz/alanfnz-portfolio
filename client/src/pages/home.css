@@ -257,7 +257,7 @@ body {
   animation: moveInBottom 0.7s ease-out 0.3s;
   animation-fill-mode: backwards; }
 
-@media only screen and (max-width: 32em) {
+@media only screen and (max-width: 70em) {
   .btn--popup {
     display: block !important;
     margin-left: 0 !important;
@@ -463,25 +463,19 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 60%;
+    max-height: 90vh;
+    width: 80%;
     box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
     background-color: #fff;
     border-radius: 3px;
-    display: table;
-    overflow: hidden;
+    overflow-y: scroll;
     opacity: 0;
     transform: translate(-50%, -50%) scale(0.25);
     transition: all 0.5s 0.2s; }
-    @media only screen and (min-width: 112.5em) {
+    @media only screen and (min-width: 70em) {
       .popup__content {
-        width: 50%; } }
-    @media only screen and (max-width: 75em) {
-      .popup__content {
-        width: 75%; } }
-    @media only screen and (max-width: 56.25em) {
-      .popup__content {
-        width: 85%; } }
-    @media only screen and (max-width: 37.5em) {
+        width: 900px; } }
+    @media only screen and (max-width: 25em) {
       .popup__content {
         width: 90%; } }
   .popup__top {

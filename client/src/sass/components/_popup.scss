@@ -12,27 +12,21 @@
 
   &__content {
     @include absCenter;
-    width: 60%;
+    max-height: 90vh;
+    width: 80%;
     box-shadow: 0 2rem 4rem rgba($color-black, 0.2);
     background-color: $color-white;
     border-radius: 3px;
-    display: table;
-    overflow: hidden;
+    overflow-y: scroll;
     opacity: 0;
     transform: translate(-50%, -50%) scale(0.25);
     transition: all 0.5s 0.2s;
-    @include respond(big-desktop) {
-      width: 50%;
+    @media only screen and (min-width: 70em) {
+      width: 900px;
     }
-    @include respond(tab-land) {
-      width: 75%;
+    @media only screen and (max-width: 25em) {
+      width: 90%
     }
-    @include respond(tab-port) {
-      width: 85%;
-    }
-    @include respond(phone) {
-      width: 90%;
-    } 
   }
 
   &__top {
