@@ -21,7 +21,7 @@ const Footer = () => {
                 </a>
               </li>
               <li className="footer__item">
-                <a href="#" className="footer__link">
+                <a href="https://www.linkedin.com/in/alanfernadez11/" className="footer__link">
                   LinkedIn
                 </a>
               </li>
@@ -36,7 +36,7 @@ const Footer = () => {
         <div className="col-1-of-2">
           <p className="footer__copyright">
             Built in React + Node.js by{" "}
-            <a href="#" className="footer__link">
+            <a href="https://www.linkedin.com/in/alanfernadez11/" className="footer__link">
               Alan Fernandez
             </a>
           </p>
