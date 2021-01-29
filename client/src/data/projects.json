@@ -3,7 +3,7 @@
     "_id": "1",
     "name": "Gearwaves",
     "summary": "Shopping platform with content administration and payments processing",
-    "description": "Modern shopping platform built with MERN stack (Mongo, Express, React and Node.js). Mapbox integration, user roles, CRUD operations capabilities as an admin user, and many more features from the API. Fully responsive.",
+    "description": "Modern shopping platform built with MERN stack (Mongo, Express, React and Node.js). Mapbox integration, user roles, CRUD operations capabilities as an admin user, and many more API features. Fully responsive.",
     "stack": ["React | Redux", "Node JS | Express", "MongoDB | Mongoose", "JWT", "Stripe"],
     "img": "gearwaves-cover.jpg",
     "video": {
